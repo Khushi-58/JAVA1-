@@ -2,6 +2,7 @@ class Factorial{
     int fact(int n){
         if(n==1)
             return 1;
+        else
         int result=fact(n-1)*n;
         return result;  
 }
